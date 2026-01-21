@@ -1,0 +1,20 @@
+{
+  "name": "staff-points-bot",
+  "version": "1.1.0",
+  "description": "Production-grade Discord Staff Points Management System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": ["discord", "bot", "points", "staff", "management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
